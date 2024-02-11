@@ -1,0 +1,117 @@
+/* TITLE SECTION */
+#title-section {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../media/img/painting-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0 0 0 100vw var(--black-60);
+}
+#title-section h3 {
+    color: var(--white);
+}
+#title-section a {
+    background-color: var(--earth-yellow);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin-top: 40px;
+}
+
+/* NOS ACTIVITES */
+.section-activites {
+    padding: var(--section-padding);
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+}
+.section-activites img {
+    width: 100%;
+    box-shadow: 10px 10px 0px var(--anti-flash-white);
+    border-radius: 5px;
+    max-width: 500px;
+}
+.section-activites article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.article-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+/* ORIGINES DU PROJET */
+.section-origines {
+    background-image: url(../media/img/expositions/expositions.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    box-shadow: inset 0 0 0 100vw var(--black-60);
+    padding: var(--section-padding);
+    display: flex;
+    justify-content: center;
+}
+.section-origines article {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.section-origines p, .section-origines h2 {
+    color: var(--white);
+}
+
+/* ATELIERS DE DESSIN ET PEINTURE */
+.section-ateliers {
+    width: 90%;
+}
+.section-ateliers article a {
+    height: 100px;
+}
+
+/* IMAGE GRID */
+.grid-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.grid-col {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+}
+.grid-col img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 5px;
+}
+@media screen and (max-width: 800px) {
+    .grid-col {
+        -ms-flex: 45%;
+        flex: 45%;
+        max-width: 50%;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    .grid-col {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+  

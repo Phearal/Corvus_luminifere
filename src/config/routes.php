@@ -5,5 +5,6 @@ return [
     "about" => "about",
     "services" => "services",
     "contact" => "contact",
-    "autrePage" => "autrePage"
+    "ateliers" => "ateliers",
+    "expositions" => "expositions",
 ];

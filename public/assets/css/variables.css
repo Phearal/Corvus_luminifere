@@ -1,12 +1,33 @@
 :root {
-    --raisin-black: #1A181B;
-    --vanilla: #E1DAA7;
-    --paynes-grey: #325F73;
-    --bistre: #452E1F;
+    /* COLORS */
     --black: #000;
     --white: #fff;
-    
-    --title-color: brown;
-    --text-color: red;
+    --earth-yellow: #EEB868;
+    --cod-gray: #191919;
+    --white-smoke: #F5F5F5;
+    --black-60: rgba(0, 0, 0, 0.6);
+    --onyx: #404040;
+    --silver: #B6B6B6;
+    --anti-flash-white: #ECECEC;
+
+    /* FONTS */
+    --lora: 'Lora', serif;
+    --open-sans: 'Open Sans', sans-serif;
+
+    /* TEXT */
+    --p-line-height: 1.5;
+    --p-weight: 400;
+    --p-size: 1rem;
+    --h1-size: 2rem;
+    --h1-weight: 700;
+    --h2-size: 1.8rem;
+    --h2-weight: 700;
+    --h3-size: 1.4rem;
+    --h3-weight: 700;
+
+    /* OTHER */
+    --section-padding: 70px 0;
+    --section-width: 90%;
+    --section-max-width: 1200px;
 }
-/* https://coolors.co/1a181b-e1daa7-325f73-ffffff-452e1f-EEB868 */
+/* https://coolors.co/000000-191919-404040-b6b6b6-ececec-f5f5f5-ffffff-eeb868 */

@@ -1,16 +1,20 @@
 <header>
     <div id="header-content">
-        <div id="logo-container">
-            <img src="<?= IMAGES ?>/logo-dark.png" alt="Logo de Corvus luminifère">
-        </div>
+        <?php include TEMPLATE_PARTS . '/_logo.php'; ?>
         <nav>
-            <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">A propos</a></li>
-                <li><a href="#">Services</a></li>
+            <ul id="nav-link-list">
+                <li><a href="index.php?page=accueil">Accueil</a></li>
+                <li><a href="#">Ateliers</a></li>
+                <li><a href="#">Expositions</a></li>
+                <li><a href="#">À propos</a></li>
                 <li><a href="#">Contact</a></li>
-                <li><a href="#">Connexion</a></li>
             </ul>
+            <div id="burger-container">
+                <svg width="34" height="24" viewBox="0 0 34 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.24992 13.6666H32.2499C33.1699 13.6666 33.9166 12.9199 33.9166 11.9999C33.9166 11.0799 33.1699 10.3333 32.2499 10.3333H2.24992C1.32992 10.3333 0.583252 11.0799 0.583252 11.9999C0.583252 12.9199 1.32992 13.6666 2.24992 13.6666ZM2.24992 3.66659H32.2499C33.1699 3.66659 33.9166 2.91992 33.9166 1.99992C33.9166 1.07992 33.1699 0.333252 32.2499 0.333252H2.24992C1.32992 0.333252 0.583252 1.07992 0.583252 1.99992C0.583252 2.91992 1.32992 3.66659 2.24992 3.66659ZM2.24992 23.6666H32.2499C33.1699 23.6666 33.9166 22.9199 33.9166 21.9999C33.9166 21.0799 33.1699 20.3333 32.2499 20.3333H2.24992C1.32992 20.3333 0.583252 21.0799 0.583252 21.9999C0.583252 22.9199 1.32992 23.6666 2.24992 23.6666Z" fill="white"/>
+                </svg>
+            </div>
+
         </nav>
     </div>
 </header>

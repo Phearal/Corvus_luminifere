@@ -10,7 +10,7 @@ define('IMAGES', './public/assets/media/img');
 define('CSS', './public/assets/css');
 define('JS', './public/assets/js');
 
-define('TITLE', 'Structure d\'appli');
+define('TITLE', 'Ateliers Corvus');
 
 define('ROUTE_NAMES', [
     "accueil" => "Accueil",
