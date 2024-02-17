@@ -12,6 +12,7 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 95%;
+    max-width: var(--section-max-width);
 }
 
 /* LOGO */
@@ -46,8 +47,11 @@ header {
 }
 
 #burger-container {
-    height: 40px;
-    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#close-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,4 +59,77 @@ header {
 
 #nav-link-list {
     display: none;
+}
+
+/* MENU MOBILE */
+
+.mobile {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    right: -100%;
+    transition: right 0.2s ease;
+}
+.mobile #nav-link-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    border-top: 2px solid var(--earth-yellow);
+    padding-top: 30px;
+    gap: 30px;
+}
+.mobile #nav-link-list li {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.mobile #nav-link-list a {
+    color: var(--white);
+    font-size: 2rem;
+    margin-right: 30px;
+}
+.mobile #close-menu {
+    display: flex;
+    align-self: flex-end;
+    margin: 30px 30px 30px 0;
+}
+
+
+/* MENU DESKTOP */
+@media (min-width: 1024px) {
+    #nav-link-list {
+        display: flex;
+        gap: 30px;
+    }
+    #burger-container {
+        display: none;
+    }
+    #header-content nav ul li a {
+        display: inline-block;
+        position: relative;
+        padding-bottom: 5px;
+    }
+    #header-content nav ul li a:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: var(--earth-yellow);
+        transform-origin: center;
+        transition: transform 0.25s ease-out;
+    }
+    #header-content nav ul li a:hover:after {
+        transform: scaleX(1);
+        transform-origin: center;
+    }
 }

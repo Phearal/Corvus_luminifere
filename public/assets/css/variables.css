@@ -31,3 +31,7 @@
     --section-max-width: 1200px;
 }
 /* https://coolors.co/000000-191919-404040-b6b6b6-ececec-f5f5f5-ffffff-eeb868 */
+
+.hide {
+    display: none !important;
+}

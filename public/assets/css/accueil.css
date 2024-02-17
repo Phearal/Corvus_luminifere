@@ -32,6 +32,7 @@
     display: flex;
     width: 90%;
     flex-direction: column;
+    max-width: var(--section-max-width);
 }
 .section-activites img {
     width: 100%;
@@ -44,6 +45,9 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
+}
+.section-activites p {
+    height: 7rem;
 }
 .article-container {
     display: flex;
@@ -74,10 +78,15 @@
 
 /* ATELIERS DE DESSIN ET PEINTURE */
 .section-ateliers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     width: 90%;
+    max-width: var(--section-max-width);
 }
-.section-ateliers article a {
-    height: 100px;
+.section-ateliers article p {
+    margin-bottom: 50px;
 }
 
 /* IMAGE GRID */
@@ -87,11 +96,12 @@
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-top: 50px;
+    gap: 8px;
 }
 .grid-col {
-    -ms-flex: 25%;
-    flex: 25%;
-    max-width: 25%;
+    -ms-flex: 45%;
+    flex: 45%;
+    max-width: 50%;
 }
 .grid-col img {
     margin-top: 8px;
@@ -99,14 +109,6 @@
     width: 100%;
     border-radius: 5px;
 }
-@media screen and (max-width: 800px) {
-    .grid-col {
-        -ms-flex: 45%;
-        flex: 45%;
-        max-width: 50%;
-    }
-}
-  
 @media screen and (max-width: 600px) {
     .grid-col {
         -ms-flex: 100%;
@@ -114,4 +116,53 @@
         max-width: 100%;
     }
 }
-  
+
+@media (min-width: 768px) {
+    .article-container {
+        flex-direction: row;
+        justify-content: space-between;
+        height: 100%;
+    }
+    .article-container article {
+        width: 50%;
+        height: 100%;
+    }
+}
+@media (min-width: 1024px) {
+    .section-activites p {
+        height: 6rem;
+    }
+    .section-ateliers {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 50px;
+    }
+    .grid-row {
+        width: 70%;
+        align-items: flex-start;
+        margin-top: 0;
+    }
+    .section-ateliers article  {
+        width: 30%;
+    }
+}
+@media (min-width: 1250px) {
+    /* NOS ACTIVITES */
+    .article-container {
+        flex-direction: row;
+    }
+    .article-container article {
+        max-width: 500px;
+    }
+    /* ORIGINES DU PROJET */
+    .section-origines {
+        padding: 70px 20%;
+    }
+    .section-origines article {
+        width: 50%;
+    }
+    .section-origines div:first-child {
+        width: 50%;
+    }
+}
