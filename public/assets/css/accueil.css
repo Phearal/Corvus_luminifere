@@ -1,5 +1,5 @@
 /* TITLE SECTION */
-#title-section {
+#home-title-section {
     width: 100%;
     height: 100vh;
     background-image: url(../media/img/painting-background.jpg);
@@ -12,10 +12,10 @@
     justify-content: center;
     box-shadow: inset 0 0 0 100vw var(--black-60);
 }
-#title-section h3 {
+#home-title-section h3 {
     color: var(--white);
 }
-#title-section a {
+#home-title-section a {
     background-color: var(--earth-yellow);
     width: 50px;
     height: 50px;
@@ -33,12 +33,6 @@
     width: 90%;
     flex-direction: column;
     max-width: var(--section-max-width);
-}
-.section-activites img {
-    width: 100%;
-    box-shadow: 10px 10px 0px var(--anti-flash-white);
-    border-radius: 5px;
-    max-width: 500px;
 }
 .section-activites article {
     display: flex;
@@ -109,6 +103,34 @@
     width: 100%;
     border-radius: 5px;
 }
+
+/* SECTION NEWSLETTER */
+.section-newsletter {
+    background-color: var(--white-smoke);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.section-newsletter {
+    background-color: var(--white-smoke);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.section-newsletter input {
+    padding: 15px;
+    color: var(--white-smoke);
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.section-newsletter form {
+    width: 90%;
+    max-width: 700px;
+}
+
 @media screen and (max-width: 600px) {
     .grid-col {
         -ms-flex: 100%;
@@ -129,6 +151,7 @@
     }
 }
 @media (min-width: 1024px) {
+    /* NOS ACTIVITES */
     .section-activites p {
         height: 6rem;
     }
@@ -145,6 +168,14 @@
     }
     .section-ateliers article  {
         width: 30%;
+    }
+    /* SECTION NEWSLETTER */
+    .section-newsletter form div {
+        display: flex;
+        gap: 20px;
+    }
+    .section-newsletter input {
+        margin-bottom: unset;
     }
 }
 @media (min-width: 1250px) {

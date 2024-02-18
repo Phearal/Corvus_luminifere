@@ -1,12 +1,12 @@
 <footer>
     <div id="footer-lists">
         <?php include TEMPLATE_PARTS . '/_logo.php'; ?>
-        <ul id="footer-contact">
-            <li>Ateliers Corvus</li>
-            <li>corvusluminifere@contact.fr</li>
-            <li>06.01.01.01.01</li>
-            <li>64140 Lons</li>
-        </ul>
+        <address id="footer-contact">
+            <p>Ateliers Corvus</p>
+            <p><a href="mailto:corvusluminifere@contact.fr">corvusluminifere@contact.fr</a></p>
+            <p>06.01.01.01.01</p>
+            <p>12 allée des Pinceaux, 64140 Lons</p>
+        </address>
         <ul id="footer-page-links">
             <li><a href="index.php?page=ateliers">Ateliers</a></li>
             <li><a href="index.php?page=expositions">Expositions</a></li>

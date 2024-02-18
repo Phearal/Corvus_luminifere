@@ -9,10 +9,10 @@
             </div>
             <ul id="nav-link-list">
                 <li><a href="index.php?page=accueil">Accueil</a></li>
-                <li><a href="#">Ateliers</a></li>
-                <li><a href="#">Expositions</a></li>
-                <li><a href="#">À propos</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index.php?page=ateliers">Ateliers</a></li>
+                <li><a href="index.php?page=expositions">Expositions</a></li>
+                <li><a href="index.php?page=about">À propos</a></li>
+                <li><a href="index.php?page=contact">Contact</a></li>
             </ul>
             <div id="burger-container">
                 <svg width="34" height="24" viewBox="0 0 34 24" fill="none" xmlns="http://www.w3.org/2000/svg">

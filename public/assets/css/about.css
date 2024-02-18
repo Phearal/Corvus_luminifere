@@ -1,0 +1,87 @@
+/* TITLE SECTION */
+#title-section {
+    background-image: url(../media/img/activites/atelier5.jpg);
+}
+
+/* SECTION ORIGINES */
+.section-origines {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: var(--section-max-width);
+    width: var(--section-width);
+}
+.section-origines article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-origines img {
+    margin-top: 50px;
+}
+
+/* SECTION ENSEIGNANTS VALEURS */
+.section-enseignants-valeurs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    max-width: var(--section-max-width);
+    width: var(--section-width);
+}
+#enseignants ul {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+#enseignants ul li {
+    display: flex;
+    gap: 20px;
+}
+#enseignants img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+#enseignants h4 {
+    margin-bottom: 10px;
+}
+#valeurs ul {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+#valeurs li {
+    display: flex;
+}
+#valeurs li::before {
+    content: ''; /* Contenu vide */
+    display: inline-block;
+    height: 3px;
+    width: 20px;
+    min-width: 20px;
+    background-color: var(--earth-yellow);
+    margin: 10px 10px 0 0;
+}
+
+@media (min-width: 1024px) {
+    /* SECTION ORIGINES */
+    .section-origines article {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    /* SECTION ENSEIGNANTS VALEURS */
+}
+@media (min-width: 1250px) {
+    /* SECTION ENSEIGNANTS VALEURS */
+    .section-enseignants-valeurs {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .section-enseignants-valeurs article {
+        width: 100%;
+        max-width: 600px;
+    }
+}

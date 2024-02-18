@@ -5,7 +5,9 @@
 @import "./_header.css";
 @import "./_footer.css";
 
-
+html {
+    scroll-behavior: smooth;
+}
 main {
     width: 100%;
     display: flex;
@@ -27,12 +29,14 @@ main {
     color: var(--white);
     text-transform: uppercase;
     font-weight: 500;
+    font-size: var(--p-size);
+    border: none;
 }
 /* TEXT */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--lora);
 }
-p, a, li, button {
+p, a, li, button, input {
     font-family: var(--open-sans);
 }
 h1 {
@@ -54,6 +58,26 @@ p {
     font-weight: var(--p-weight);
     line-height: var(--p-line-height);
     font-size: var(--p-size);
+}
+/* IMAGES */
+.img-default {
+    width: 100%;
+    box-shadow: 10px 10px 0px var(--anti-flash-white);
+    border-radius: 5px;
+    max-width: 500px;
+}
+/* TITLE SECTION */
+#title-section {
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0 0 0 100vw var(--black-60);
 }
 /* OTHER */
 [class*="section"] {

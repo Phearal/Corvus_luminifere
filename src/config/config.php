@@ -15,7 +15,7 @@ define('TITLE', 'Ateliers Corvus');
 define('ROUTE_NAMES', [
     "accueil" => "Accueil",
     "about" => "A propos",
-    "services" => "Services",
+    "ateliers" => "Ateliers",
+    "expositions" => "Expositions",
     "contact" => "Contact",
-    "autrePage" => "Autre page"
 ]);
