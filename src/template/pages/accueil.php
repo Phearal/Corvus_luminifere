@@ -58,11 +58,12 @@
     </section>
 
     <section class="section-newsletter">
-        <form action="">
+        <form action="" method="POST">
             <h2>S'inscrire à la newsletter</h2>
             <div class="separator"></div>
             <div>
-                <input type="email" placeholder="Entrer une adresse email valide">
+                <label for="email" class="hide">Adresse e-mail :</label>
+                <input type="email" id="email" name="email" placeholder="Entrer une adresse email valide" required>
                 <button type="submit" class="btn-link">Envoyer</button>
             </div>
         </form>

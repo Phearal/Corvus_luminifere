@@ -2,3 +2,74 @@
 #title-section {
     background-image: url(../media/img/expositions/exposition3.jpg);
 }
+
+/* SECTION CONTACT */
+.section-contact {
+    width: var(--section-width);
+}
+.section-contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.section-contact input, .section-contact textarea {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    font-weight: var(--p-weight);
+    font-size: var(--p-size);
+    resize: vertical;
+    color: var(--cod-gray);
+    border: 1px solid var(--cod-gray);
+    border-radius: 2px;
+}
+.section-contact textarea {
+    min-height: 200px;
+}
+.section-contact label {
+    display: none;
+}
+
+/* SECTION COORDONNÉES */
+.section-coordonnees {
+    width: var(--section-width);
+}
+.section-coordonnees address {
+    font-style: normal;
+}
+.section-coordonnees h3 {
+    margin: 20px 0 5px 0;
+}
+.section-coordonnees ul {
+    display: flex;
+    gap: 20px;
+}
+.section-coordonnees ul li a {
+    background-color: var(--earth-yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+.section-coordonnees ul li a:hover {
+    background-color: var(--earth-yellow2);
+}
+
+@media (min-width: 1024px) {
+    main {
+        flex-direction: row;
+        gap: 40px;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0 50px;
+        box-sizing: border-box;
+    }
+    .section-contact, .section-coordonnees {
+        width: 50%;
+        max-width: 600px;
+    }
+}

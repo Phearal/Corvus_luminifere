@@ -21,9 +21,7 @@
 <body>
     <?php include TEMPLATE_PARTS . '/_header.php'; ?>
 
-    <main>
-        <?php include $template ?>
-    </main>
+    <?php include $template ?>
 
     <?php include TEMPLATE_PARTS . '/_footer.php'; ?>
 </body>
