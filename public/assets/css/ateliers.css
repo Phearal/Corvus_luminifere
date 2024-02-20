@@ -2,3 +2,51 @@
 #title-section {
     background-image: url(../media/img/activites/activites.jpg);
 }
+.section-enfants, .section-adultes {
+    width: var(--section-width);
+    max-width: var(--section-max-width);
+}
+.section-enfants ul, .section-adultes ul {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.section-enfants ul li, .section-adultes ul li {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.section-enfants figure, .section-adultes figure {
+    order: -1;
+}
+.section-enfants ul li p:nth-child(-n+4)::before, .section-adultes ul li p:nth-child(-n+4)::before {
+    content: '';
+    display: inline-block;
+    height: 3px;
+    width: 20px;
+    min-width: 20px;
+    background-color: var(--earth-yellow);
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+@media (min-width: 1300px) {
+    .section-enfants ul, .section-adultes ul {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .section-enfants ul li, .section-adultes ul li {
+        max-width: 550px;
+    }
+    .section-enfants figure, .section-adultes figure {
+        max-width: 550px;
+        order: unset;
+        align-self: flex-start;
+        justify-self: flex-start;
+    }
+    .section-enfants img, .section-adultes img {
+        width: 100% !important;
+        max-width: unset !important;
+    }
+}
