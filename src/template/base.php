@@ -12,7 +12,6 @@
     <?php if (file_exists($pageLink)) : ?>
         <link rel="stylesheet" href="<?= $pageLink ?>">
     <?php endif ?>
-    <link rel="stylesheet" href="<?= CSS ?>/responsive.css">
     <script defer src="<?= JS ?>/menu.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
     <script defer src="<?= JS ?>/carousel.js"></script>

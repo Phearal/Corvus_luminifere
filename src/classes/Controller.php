@@ -25,6 +25,7 @@ class Controller
             if (file_exists(PAGES . $this->router->getPage() . ".php")) {
                 $template = PAGES . $this->router->getPage() . ".php";
             } else {
+                $pageLink = CSS . "/404.css";
                 $template = PAGES . "page404.php";
             }
             include TEMPLATE . '/base.php';

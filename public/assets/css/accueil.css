@@ -24,6 +24,7 @@
     align-items: center;
     border-radius: 25px;
     margin-top: 40px;
+    transition: 0.2s;
 }
 
 /* NOS ACTIVITES */
@@ -148,6 +149,9 @@
     .article-container article {
         width: 50%;
         height: 100%;
+    }
+    #home-title-section a:hover {
+        background-color: var(--earth-yellow2);
     }
 }
 @media (min-width: 1024px) {

@@ -1,0 +1,7 @@
+#title-section {
+    background-color: var(--cod-gray);
+    gap: 20px;
+}
+#title-section p {
+    color: var(--white);
+}
