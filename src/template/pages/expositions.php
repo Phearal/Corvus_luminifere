@@ -14,20 +14,21 @@
         <br><br>
         Que vous soyez un artiste en herbe cherchant à exposer votre travail pour la première fois ou un amateur d'art curieux de découvrir les dernières créations de la scène artistique locale, nos expositions sont un rendez-vous incontournable. Rejoignez-nous pour célébrer l'art, la créativité et l'expression individuelle dans un cadre inspirant et accueillant.</p>
         <div class="glide1">
-                    <div class="glide__track" data-glide-el="track">
-                        <ul class="glide__slides">
-                            <li class="glide__slide"><img src="<?= IMAGES ?>/carrousel/carrousel1.jpg" alt="Exposition"></li>
-                            <li class="glide__slide"><img src="<?= IMAGES ?>/carrousel/carrousel2.jpg" alt=""></li>
-                            <li class="glide__slide"><img src="<?= IMAGES ?>/carrousel/carrousel3.jpg" alt="Tableaux de portrtaits féminins semi-réalistes"></li>
-                            <li class="glide__slide"><img src="<?= IMAGES ?>/carrousel/carrousel4.jpg" alt="Vue du dessus de l'exposition moderne du 14 Mars 2017."></li>
-                        </ul>
-                    </div>
-                    <div class="glide__bullets" data-glide-el="controls[nav]">
-                        <button class="glide__bullet" data-glide-dir="=0"></button>
-                        <button class="glide__bullet" data-glide-dir="=1"></button>
-                        <button class="glide__bullet" data-glide-dir="=2"></button>
-                        <button class="glide__bullet" data-glide-dir="=3"></button>
-                    </div>
+            <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                    <li class="glide__slide"><img src="<?= IMAGES ?>/carrousel/carrousel1.jpg" alt="Exposition"></li>
+                    <li class="glide__slide"><img src="<?= IMAGES ?>/carrousel/carrousel2.jpg" alt=""></li>
+                    <li class="glide__slide"><img src="<?= IMAGES ?>/carrousel/carrousel3.jpg" alt="Tableaux de portrtaits féminins semi-réalistes"></li>
+                    <li class="glide__slide"><img src="<?= IMAGES ?>/carrousel/carrousel4.jpg" alt="Vue du dessus de l'exposition moderne du 14 Mars 2017."></li>
+                </ul>
+            </div>
+            <div class="glide__bullets" data-glide-el="controls[nav]">
+                <button class="glide__bullet" data-glide-dir="=0"></button>
+                <button class="glide__bullet" data-glide-dir="=1"></button>
+                <button class="glide__bullet" data-glide-dir="=2"></button>
+                <button class="glide__bullet" data-glide-dir="=3"></button>
+            </div>
+        </div>
     </section>
     <section class="section-prochaines-expos">
         <h2>Prochaines expositions</h2>

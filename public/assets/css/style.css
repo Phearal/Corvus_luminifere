@@ -1,10 +1,13 @@
-@import "_init.css";
 @import "./fonts.css";
 @import "./variables.css";
 @import "./responsive.css";
 @import "./_header.css";
 @import "./_footer.css";
 
+* {
+    padding: 0;
+    margin: 0;
+}
 html {
     scroll-behavior: smooth;
 }
@@ -13,6 +16,10 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+li, a {
+    list-style: none;
+    text-decoration: none;
 }
 /* DIV DE SEPARATION */
 .separator {
