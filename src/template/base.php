@@ -13,8 +13,13 @@
         <link rel="stylesheet" href="<?= $pageLink ?>">
     <?php endif ?>
     <script defer src="<?= JS ?>/menu.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
-    <script defer src="<?= JS ?>/carousel.js"></script>
+    <?php foreach ($jsFiles as $file) : ?>
+        <script defer src="<?= JS . $file ?>"></script>
+    <?php endforeach ?>
+    <?php foreach ($cssFiles as $file) : ?>
+        <link rel="stylesheet" href="<?= CSS . $file ?>">
+    <?php endforeach ?>
+
 </head>
 
 <body>

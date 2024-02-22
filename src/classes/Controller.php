@@ -22,6 +22,17 @@ class Controller
         public function render($titre)
         {
             $pageLink = CSS . "/" . $this->router->getPage() . ".css";
+            $cssFiles = [];
+            $jsFiles = [];
+    
+            // Chargement des dépendances si elles existent
+            $dependencies = include_once './src/config/dependencies.php';
+            $page = $this->router->getPage();
+            if (isset($dependencies[$page])) {
+                $cssFiles = $dependencies[$page]['css'] ?? [];
+                $jsFiles = $dependencies[$page]['js'] ?? [];
+            }
+    
             if (file_exists(PAGES . $this->router->getPage() . ".php")) {
                 $template = PAGES . $this->router->getPage() . ".php";
             } else {
