@@ -12,7 +12,7 @@
     <?php if (file_exists($pageLink)) : ?>
         <link rel="stylesheet" href="<?= $pageLink ?>">
     <?php endif ?>
-    <script defer src="<?= JS ?>/menu.js"></script>
+    <script defer src="<?= JS ?>/main.js"></script>
     <?php foreach ($jsFiles as $file) : ?>
         <script defer src="<?= JS . $file ?>"></script>
     <?php endforeach ?>

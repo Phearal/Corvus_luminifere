@@ -1,3 +1,4 @@
+/* MENU */
 const burgerIcon = document.querySelector("#burger-container");
 const nav = document.querySelector("#header-nav");
 const closeIcon = document.querySelector("#close-menu");
@@ -22,3 +23,29 @@ function toggleMenu() {
         }, 0);
     }
 }
+
+/* ANIMATIONS */
+const elementsWithAnimation = document.querySelectorAll('.fade-in-top, .fade-in-right, .fade-in-bottom, .fade-in-left, .fade-in');
+
+const options = {
+    root: null,
+    rootMargin: '0px',
+    threshold: 0.1
+};
+
+// Création de l'instance de l'Intersection Observer
+const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+        // Si l'élément est visible
+        if (entry.isIntersecting) {
+            // entry.classList.add(animation);
+            entry.target.style.animationPlayState = 'running';
+            observer.unobserve(entry.target);
+        }
+    });
+}, options);
+
+observer.observe(activites);
+elementsWithAnimation.forEach(element => {
+    observer.observe(element);
+});
