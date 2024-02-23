@@ -2,7 +2,7 @@
 
 define('TEMPLATE', './src/template');
 define('TEMPLATE_PARTS', './src/template/template_parts');
-define('PAGES', './src/template/pages/');
+define('PAGES', './src/template/pages');
 define('FONCTIONS', './src/fonctions');
 define('CLASSES', './src/classes');
 
