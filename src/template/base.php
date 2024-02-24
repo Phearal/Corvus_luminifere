@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="L'atelier créatif Corvus luminifère propose des ateliers et expositions artistiques. Découvrez nos ateliers de dessin et peinture.">
     <link rel="icon" type="image/x-icon" href="<?= IMAGES ?>/icons/favicon.ico">
-    <title><?= TITLE ?></title>
+    <title><?= TITLE . " | " . $titre ?></title>
     <link rel="stylesheet" href="<?= CSS ?>/style.css">
     <?php if (file_exists($pageLink)) : ?>
         <link rel="stylesheet" href="<?= $pageLink ?>">

@@ -41,5 +41,6 @@ class Controller
                 $template = PAGES . "/page404.php";
             }
             include TEMPLATE . '/base.php';
+            $titre = $titre;
         }
     }

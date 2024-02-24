@@ -38,7 +38,7 @@
         <article>
             <h2>Ateliers de dessin et peinture</h2>
             <div class="separator"></div>
-            <p>Nos ateliers sont animés par des enseignants passionnés et dévoués qui favorisent un accompagnement personnalisé, guidant chaque apprenant avec soin et attention. Que vous soyez débutant ou artiste chevronné, nos ateliers offrent un espace inclusif pour explorer, apprendre et grandir. Rejoignez-nous pour partager des moments de création uniques, où la camaraderie et l'inspiration se mêlent pour former une expérience artistique exceptionnelle.</p>
+            <p>Nos ateliers sont animés par des enseignants passionnés et dévoués qui favorisent un <strong>accompagnement personnalisé</strong>, guidant chaque apprenant avec soin et attention. Que vous soyez débutant ou artiste chevronné, nos ateliers offrent un espace inclusif pour explorer, apprendre et grandir. Rejoignez-nous pour partager des moments de création uniques, où la camaraderie et l'inspiration se mêlent pour former une expérience artistique exceptionnelle.</p>
             <a href="index.php?page=ateliers" class="btn-link">Découvrir</a>
         </article>
         <div class="grid-row">
