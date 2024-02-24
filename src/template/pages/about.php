@@ -1,5 +1,5 @@
 <section id="title-section">
-    <h1>À propos</h1>
+    <h1 class="fade-in">À propos</h1>
 </section>
 
 <main>
@@ -11,7 +11,7 @@
                 <p>Au cœur d'une amitié partagée et d'une passion commune pour l'art, un groupe d'amis décida de transformer un simple grenier en un atelier créatif. Ils baptisèrent leur projet "Corvus luminifère" et créèrent un espace où chaque coup de pinceau devint une histoire à raconter.
                 <br><br>Ainsi naquit un lieu où artistes novices et chevronnés se rassemblent, partagent et exposent. "Corvus luminifère" devint le sanctuaire où la passion artistique s'illumine, où chaque visiteur est invité à découvrir et nourrir sa propre créativité. Bienvenue dans notre histoire, devenez une part de "Corvus luminifère".</p>
             </div>
-            <img class="img-default" src="<?= IMAGES ?>/expositions/expositions.jpg" alt="Exposition du 27 Février 2018, les visiteurs examinent les toiles.">
+            <img class="img-default fade-in-right" src="<?= IMAGES ?>/expositions/expositions.jpg" alt="Exposition du 27 Février 2018, les visiteurs examinent les toiles.">
         </article>
     </section>
 
@@ -21,21 +21,21 @@
             <div class="separator"></div>
             <ul>
                 <li>
-                    <img src="<?= IMAGES ?>/enseignants/enseignant1_small.png" alt="Sandra DUBOIS, enseignante chez Corvus Luminifère.">
+                    <img src="<?= IMAGES ?>/enseignants/enseignant1_small.png" class="fade-in-left" alt="Sandra DUBOIS, enseignante chez Corvus Luminifère.">
                     <div>
                         <h4>Sandra DUBOIS</h4>
                         <p> En tant qu'ancienne artiste professionnelle, Anna comprend les défis auxquels sont confrontés ses élèves lorsqu'ils cherchent à développer leurs compétences artistiques. Elle est connue pour sa capacité à simplifier des concepts complexes et à les rendre accessibles à tous les niveaux de compétence. Avec son approche pratique et terre à terre, Anna guide ses élèves avec patience et encouragement, les aidant à surmonter les obstacles et à progresser dans leur parcours artistique.</p>
                     </div>
                 </li>
                 <li>
-                    <img src="<?= IMAGES ?>/enseignants/enseignant2_small.png" alt="Marc LECLERC, enseignant chez Corvus Luminifère.">
+                    <img src="<?= IMAGES ?>/enseignants/enseignant2_small.png" class="fade-in-left" alt="Marc LECLERC, enseignant chez Corvus Luminifère.">
                     <div>
                         <h4>Marc LECLERC</h4>
                         <p>Passionné par le partage de son amour pour l'art, Marc est un enseignant dynamique et enthousiaste. Il met l'accent sur la pratique et l'expérimentation, encourageant ses élèves à sortir de leur zone de confort pour découvrir de nouvelles techniques et approches artistiques. Sa personnalité chaleureuse et accessible crée une atmosphère conviviale où les erreurs sont considérées comme des opportunités d'apprentissage, plutôt que des obstacles.</p>
                     </div>
                 </li>
                 <li>
-                    <img src="<?= IMAGES ?>/enseignants/enseignant3_small.png" alt="Elena ROSSI, enseignante chez Corvus Luminifère.">
+                    <img src="<?= IMAGES ?>/enseignants/enseignant3_small.png" class="fade-in-left" alt="Elena ROSSI, enseignante chez Corvus Luminifère.">
                     <div>
                         <h4>Elena ROSSI</h4>
                         <p>Spécialisée dans la peinture contemporaine, Elena Rossi apporte à ses élèves une expertise académique combinée à une passion pour l'innovation artistique. Avec plusieurs années d'expérience en enseignement universitaire, elle est reconnue pour sa capacité à guider ses étudiants vers de nouvelles perspectives artistiques tout en les aidant à développer leur propre style.</p>

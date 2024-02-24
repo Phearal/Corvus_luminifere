@@ -1,5 +1,5 @@
 <section id="title-section">
-    <h1>Ateliers</h1>
+    <h1 class="fade-in">Ateliers</h1>
 </section>
 
 <main>
@@ -15,7 +15,7 @@
                 <p>Cet atelier permet aux enfants de s'exprimer librement à travers la peinture. Ils peuvent créer des paysages colorés, des portraits imaginaires ou des compositions abstraites en utilisant la peinture acrylique sur toile ou papier.</p>
             </li>
             <figure>
-                <img class="img-default" src="<?= IMAGES ?>/activites/atelier2.jpg" alt="Exposition du 27 Février 2018, les visiteurs examinent les toiles.">
+                <img class="img-default fade-in-right" src="<?= IMAGES ?>/activites/atelier2.jpg" alt="Exposition du 27 Février 2018, les visiteurs examinent les toiles.">
                 <figcaption class="hide">Découvrez nos ateliers pour adultes et explorez votre créativité.</figcaption>
             </figure>
             <li>
@@ -46,7 +46,7 @@
                 <p>Cet atelier offre aux adultes la possibilité de s'exprimer à travers la peinture à l'acrylique. Ils peuvent choisir parmi une variété de sujets, tels que des natures mortes, des portraits ou des paysages, et expérimenter avec les techniques pour créer des œuvres originales et inspirantes.</p>
             </li>
             <figure>
-                <img class="img-default" src="<?= IMAGES ?>/activites/atelier3.jpg" alt="Exposition du 27 Février 2018, les visiteurs examinent les toiles.">
+                <img class="img-default fade-in-right" src="<?= IMAGES ?>/activites/atelier3.jpg" alt="Exposition du 27 Février 2018, les visiteurs examinent les toiles.">
                 <figcaption class="hide">Découvrez nos ateliers pour adultes et explorez votre créativité.</figcaption>
             </figure>
             <li>

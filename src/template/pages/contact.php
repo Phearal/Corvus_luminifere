@@ -1,5 +1,5 @@
 <section id="title-section">
-    <h1>Contactez nous</h1>
+    <h1 class="fade-in">Contactez nous</h1>
 </section>
 
 <main>

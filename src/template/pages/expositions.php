@@ -1,5 +1,5 @@
 <section id="title-section">
-    <h1>Expositions</h1>
+    <h1 class="fade-in">Expositions</h1>
 </section>
 
 <main>
@@ -16,9 +16,9 @@
         <div class="glide1">
             <div class="glide__track" data-glide-el="track">
                 <ul class="glide__slides">
-                    <li class="glide__slide"><img src="<?= IMAGES ?>/carrousel/carrousel1.jpg" alt="Exposition"></li>
-                    <li class="glide__slide"><img src="<?= IMAGES ?>/carrousel/carrousel2.jpg" alt=""></li>
-                    <li class="glide__slide"><img src="<?= IMAGES ?>/carrousel/carrousel3.jpg" alt="Tableaux de portrtaits féminins semi-réalistes"></li>
+                    <li class="glide__slide"><img src="<?= IMAGES ?>/carrousel/carrousel1.jpg" alt="Exposition de peinture à l'huile et d'aquarelle"></li>
+                    <li class="glide__slide"><img src="<?= IMAGES ?>/carrousel/carrousel2.jpg" alt="Exposition du 30 Novembre 2018, une femme de dos regarde un tableau."></li>
+                    <li class="glide__slide"><img src="<?= IMAGES ?>/carrousel/carrousel3.jpg" alt="Tableaux de portraits féminins semi-réalistes"></li>
                     <li class="glide__slide"><img src="<?= IMAGES ?>/carrousel/carrousel4.jpg" alt="Vue du dessus de l'exposition moderne du 14 Mars 2017."></li>
                 </ul>
             </div>

@@ -45,7 +45,6 @@ const observer = new IntersectionObserver((entries, observer) => {
     });
 }, options);
 
-observer.observe(activites);
 elementsWithAnimation.forEach(element => {
     observer.observe(element);
 });

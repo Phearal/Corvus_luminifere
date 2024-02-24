@@ -16,9 +16,6 @@
     color: var(--white);
     animation: fade-in-top 1.5s;
 }
-h1 {
-    animation: fade-in 2s;
-}
 #home-title-section a {
     background-color: var(--earth-yellow);
     width: 50px;
