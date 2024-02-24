@@ -38,8 +38,16 @@
 .section-coordonnees address {
     font-style: normal;
 }
+.section-coordonnees address label {
+    font-family: var(--lora);
+    font-size: var(--h3-size);
+    font-weight: var(--h3-weight);
+}
+.section-coordonnees address p {
+    margin-bottom: 20px;
+}
 .section-coordonnees h3 {
-    margin: 20px 0 5px 0;
+    margin-bottom: 10px;
 }
 .section-coordonnees ul {
     display: flex;

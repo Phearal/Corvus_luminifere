@@ -23,11 +23,11 @@
         <h2>Coordonnées</h2>
         <div class="separator"></div>
         <address>
-            <h3>Adresse</h3>
+            <label>Adresse</label>
             <p>19 rue des Pinsons, 64140 Lons</p>
-            <h3>Email</h3>
+            <label>Email</label>
             <p>corvusluminifere@contact.fr</p>
-            <h3>Téléphone</h3>
+            <label>Téléphone</label>
             <p>06.01.01.01.01</p>
         </address>
         <h3>Suivez nous sur nos réseaux</h3>

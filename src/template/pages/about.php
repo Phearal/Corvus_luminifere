@@ -3,7 +3,7 @@
 </section>
 
 <main>
-    <section class="section-origines">
+    <div class="section-origines">
         <article>
             <div>
                 <h2>Origines du projet</h2>
@@ -13,9 +13,9 @@
             </div>
             <img class="img-default fade-in-right" src="<?= IMAGES ?>/expositions/expositions.jpg" alt="Exposition du 27 Février 2018, les visiteurs examinent les toiles.">
         </article>
-    </section>
+    </div>
 
-    <section class="section-enseignants-valeurs">
+    <div class="section-enseignants-valeurs">
         <article id="enseignants">
             <h3>Nos enseignants</h3>
             <div class="separator"></div>
@@ -55,5 +55,5 @@
                 <li>Une équipe passionnée : Nos instructeurs sont des artistes expérimentés et pédagogues, dévoués à vous guider tout au long de votre parcours artistique et à vous inspirer à chaque étape.</li>
             </ul>
         </article>
-    </section>
+    </div>
 </main>

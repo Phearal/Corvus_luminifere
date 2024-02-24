@@ -64,12 +64,9 @@
     box-shadow: inset 0 0 0 100vw var(--black-60);
     padding: var(--section-padding);
     display: flex;
-    justify-content: center;
-}
-.section-origines article {
-    width: 90%;
-    display: flex;
     flex-direction: column;
+    justify-content: center;
+    padding: 70px 5%;
 }
 .section-origines p, .section-origines h2 {
     color: var(--white);
@@ -81,7 +78,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
+    padding: 70px 5%;
     max-width: var(--section-max-width);
     overflow: hidden;
 }
@@ -199,10 +196,7 @@
     .section-origines {
         padding: 70px 20%;
     }
-    .section-origines article {
-        width: 50%;
-    }
-    .section-origines div:first-child {
-        width: 50%;
+    .section-origines h2, .section-origines p, .section-origines div {
+        margin-left: 50%;
     }
 }

@@ -29,15 +29,12 @@
     </section>
 
     <section class="section-origines">
-        <div></div>
-        <article>
             <h2>Origines du projet</h2>
             <div class="separator"></div>
             <p>Au cœur d'une amitié partagée et d'une passion commune pour l'art, un groupe d'amis décida un jour de transformer un simple grenier en un <strong>atelier créatif</strong>. Inspirés par les corbeaux qui survolaient leur ville, porteurs de mystères et de créativité, ils baptisèrent leur projet Corvus luminifère. Guidés par la lueur douce des lanternes suspendues, ils créèrent un espace où chaque coup de pinceau devint une histoire à raconter. Ainsi naquit un lieu où artistes novices et chevronnés se rassemblent, partagent et exposent. "Corvus luminifère" devint le sanctuaire où la passion artistique s'illumine, où chaque visiteur est invité à découvrir et nourrir sa propre créativité. Bienvenue dans notre histoire, devenez une part de Corvus luminifère.</p>
-        </article>
     </section>
 
-    <section class="section-ateliers">
+    <div class="section-ateliers">
         <article>
             <h2>Ateliers de dessin et peinture</h2>
             <div class="separator"></div>
@@ -55,7 +52,7 @@
             </div>
         </div>
         
-    </section>
+    </div>
 
     <section class="section-newsletter">
         <form action="accueil.php" method="POST">
