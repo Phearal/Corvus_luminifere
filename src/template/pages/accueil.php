@@ -63,7 +63,7 @@
             <div class="separator"></div>
             <div>
                 <label for="email" class="hide">Adresse e-mail :</label>
-                <input type="email" id="email" name="email" placeholder="Entrer une adresse email valide" required>
+                <input type="email" id="email" name="email" autocomplete="email" placeholder="Entrer une adresse email valide" required>
                 <button type="submit" class="btn-link">Envoyer</button>
             </div>
         </form>

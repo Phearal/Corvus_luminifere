@@ -8,10 +8,10 @@
         <div class="separator"></div>
         <form action="#" method="POST">
             <label for="nom">Nom :</label>
-            <input type="text" id="nom" name="nom" placeholder="Nom">
+            <input type="text" id="nom" name="nom" autocomplete="name" placeholder="Nom">
 
             <label for="email">Adresse e-mail :</label>
-            <input type="email" id="email" name="email" placeholder="Adresse email" required>
+            <input type="email" id="email" name="email" autocomplete="email" placeholder="Adresse email" required>
 
             <label for="message">Message :</label>
             <textarea id="message" name="message" placeholder="Message" minlength="10" maxlength="1024" required></textarea>
