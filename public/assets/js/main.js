@@ -13,7 +13,7 @@ function toggleMenu() {
         setTimeout(() => {
             nav.classList.toggle("mobile");
             closeIcon.classList.toggle("hide");
-        }, 500); // Attendez la fin de la transition pour changer la classe
+        }, 500); // Changement de la classe à la fin de la transition
     } else {
         closeIcon.classList.toggle("hide");
         burgerIcon.classList.toggle("hide");

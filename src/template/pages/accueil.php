@@ -43,12 +43,12 @@
         </article>
         <div class="grid-row">
             <div class="grid-col">
-                <img class="fade-in-left" src="<?= IMAGES ?>/grid/grid1.jpg" alt="Atelier de dessin enfants">
+                <img class="fade-in-left" src="<?= IMAGES ?>/grid/grid1.jpg" alt="Atelier de dessin pour enfants">
                 <img class="fade-in-bottom" src="<?= IMAGES ?>/grid/grid2.jpg" alt="Grande exposition de peinture">
             </div>
             <div class="grid-col">
-                <img class="fade-in-top" src="<?= IMAGES ?>/grid/grid3.jpg" alt="Exposition art moderne">
-                <img class="fade-in-right" src="<?= IMAGES ?>/grid/grid4.jpg" alt="Cours de peinture adulte">
+                <img class="fade-in-top" src="<?= IMAGES ?>/grid/grid3.jpg" alt="Exposition d'art moderne">
+                <img class="fade-in-right" src="<?= IMAGES ?>/grid/grid4.jpg" alt="Cours de peinture pour adultes">
             </div>
         </div>
         
