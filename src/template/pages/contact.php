@@ -24,7 +24,7 @@
         <div class="separator"></div>
         <address>
             <p>Adresse</p>
-            <p>19 rue des Pinsons, 64140 Lons</p>
+            <p>12 allée des Pinceaux, 64140 Lons</p>
             <p>Email</p>
             <p>corvusluminifere@contact.fr</p>
             <p>Téléphone</p>
